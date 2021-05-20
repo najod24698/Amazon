@@ -1,0 +1,29 @@
+.amazonBasic_wrapper {
+    display: flex;
+}
+
+.amazonBasic_left {
+    width: 20%;
+    border: 1px solid red;
+}
+
+.amazonBasic_right {
+    width: 80%;
+    border: 1px solid red;
+    display: flex;
+}
+
+.amazonBasic_wrapper button {
+    margin: 0px 60px;
+    background-color: rgb(219, 96, 51);
+    border: none;
+    color: white;
+    padding: 6px 16px;
+}
+
+.amazonBasic_wrapper img {
+    width: 150px;
+    height: 200px;
+    margin: 10px 60px;
+    border: red 1px solid;
+}

@@ -1,0 +1,385 @@
+img{
+    width: 200px;
+}
+
+.header{
+    width: 100%;
+    height: 69px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    height: 60px;
+    padding: 3px 5px;
+    padding-top: 10px;
+    border: 1px solid black;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.header__logo:hover{
+    border: 1px solid #ddd;
+}
+
+
+.header_logo{
+    width: 100px;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding: 3px 5px;
+    height: 50px;
+}
+
+.delivery {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-right: 40px;
+    border: 1px solid black;
+    padding: 0px 5px;
+}
+
+.delivery:hover {
+    border: 1px solid #ddd;
+}
+
+.deliver > span {
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.deliver > h2{
+    font-size: 14px;
+}
+
+.search_bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    height: 46px;
+    border: 4px solid #131921;
+}
+
+#search{
+    height: 40px;
+    flex: 1;
+    text-indent: 10px;
+    border: none;
+    border-left: 1px solid #c3c2c2;
+    outline: none;
+    font-size: 16px;
+}
+
+#category {
+    border-top-left-radius: 5PX;
+    border-bottom-left-radius: 5PX;
+    width: 60px;
+    outline: none;
+    border: none;
+    min-height: 40px;
+    background-color: #e4e4e4;
+    text-indent: 10px;
+    color: #808080;
+}
+
+.search_icon{
+    width: 42px;
+    height: 40px;
+    background-color: #F3A847;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444444;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.account{
+    margin-right: 20px;
+    display: flex;
+}
+
+.langauga{
+    display: flex;
+    align-items: center;
+    color: grey;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+.langauga:hover{
+    border: 1px solid #ddd;
+}
+
+.lang_img{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.sign_in_out{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+.sign_in_out:hover {
+    border: 1px solid #ddd;
+}
+
+.sign_in_out > span {
+    font-size: 12px;
+}
+
+.sign_in_out > h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hello_signIn {
+    width: 80vh;
+    height: 66vh;
+    background-color: rgba(255, 255, 255);
+    z-index: 99;
+    position: absolute;
+    top: 9vh;
+    right: 10vh;
+    display: none;
+    /* cursor: initial; */
+}
+
+.sign_icon {
+    color: rgb(233, 232, 232);
+}
+
+.hello_signIn .btn_group{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn_group button{
+    width: 33vh;
+    height: 34px;
+    color: white;
+    background-color: rgb(255, 169, 40);
+    border: none;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(238, 147, 10);
+}
+
+.btn_group span {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.btn_group a{
+    color: blue;
+    text-decoration: none;
+}
+
+.btn_group a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.hello_signIn_wrapper {
+    display: flex;
+    border-top: 1px solid #ddd;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.hello_signIn_wrapper  p {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.hello_signIn_wrapper  p a{
+    text-decoration: none;
+}
+
+.hello_signIn_wrapper  p a {
+    color: rgb(82, 82, 82);
+}
+
+.hello_signIn_wrapper  p a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.your_list {
+    width: 50%;
+    border-right: 1px solid #ddd;
+    margin-top: 15px;
+    border-right: 1px solid #ddd;
+}
+
+.your_list h4 {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.your_account{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: 5%;
+}
+
+.your_account h4 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.orders{
+    font-size: 12px;
+    color: white;
+    padding-left: 20px;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+.orders:hover {
+    border: 1px solid #ddd;
+}
+
+.orders > h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#image_order{
+    width: 40px;
+}
+
+.cart{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 3px 5px;
+}
+
+.cart:hover {
+    border: 1px solid #ddd;
+}
+
+.cart > h4{
+    color: white;
+    display: flex;
+    bottom: 0%;
+    margin-top: 20px;
+}
+
+.counter{
+    position: relative;
+    top: -10px;
+    left: 33px;
+    color: white;
+    background-color: #f07019;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.createline{
+    border: 4px solid #f07019;
+}
+
+.langauge_bar span .langauge_barLink {
+    margin-left: 14px;
+    color: rgb(6, 173, 137);
+}
+
+.langauge_bar{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 56px;
+    right: 30.2vh;
+    padding: 10px 15px;
+    display: none;
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.langauge_bar li {
+    list-style-type: none;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.langauge_bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.langauge_bar a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.langauge_bar span {
+    font-size: 14px;
+}
+
+.langauge_bar input {
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+}
+
+.langauge_bar p {
+    font-size: 14px;
+    color: black;
+}
+
+.langauge_bar p a{
+    color: rgb(6, 173, 137);
+    margin-left: 30px;
+}
+
+.language_border {
+    color: #f0f0f0;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 28px;
+}
+
+.langauge_bar_image  {
+    display: flex;
+}
+
+.langauge_bar_image img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.active{
+   display: block;
+}
+
+.👌p{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,304 @@
+.nav_main {
+    color: white;
+    width: 100%;
+}
+
+.nav {
+    background-color: #232f3e;  
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.main_ul1 {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding: 3px 0px;
+}
+
+.nav_main .main_ul1 li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #232f3e;
+}
+
+.main_ul1 li:hover {
+    border: 1px solid #ddd;
+}
+
+.main_ul2 {
+    position: relative;
+    left: 89vh;
+    padding: 3px 0px;
+}
+
+.main_ul2 li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #232f3e;
+    display: inline-block;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+
+.main_ul2 li:hover {
+    border: 1px solid #ddd;
+}
+
+
+/* digital_content */
+
+.digitalContentevices {
+    display: none;
+}
+
+.digital_content {
+    width: 27%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    z-index: 999;    
+    position: absolute;
+    top: 0px;
+    position: fixed;
+    animation: digital ease 0.5s;
+}
+
+@keyframes digital {
+
+    from {left: -500px;}
+    to {left: 0px;}
+
+}
+
+
+.digital_content2 {
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    position: absolute;
+    top: 0px;
+    background-color: #000;
+    opacity: 0.8;
+    text-align: center;
+    position: fixed;
+}
+
+.content_devices {
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.digital_content li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.hello_signin {
+    width: 100%;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 35px;
+}
+
+.signin_close {
+    top: 10px;
+    position: relative;
+    left: -45vh;
+    cursor: pointer;
+    color: red;
+    z-index: 99;
+}
+
+.hello_signin h4 {
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.hello_signin .signin_icon {
+    font-size: 31px;
+}
+
+.icon {
+    float: right;
+    color: grey;
+}
+
+.digital_ul {
+    border-bottom: 1px solid rgb(209, 209, 252);
+    padding-bottom: 6px;
+}
+
+.digital_ul h4 {
+    font-size: 19px;
+    padding: 13px 0px;
+    padding-left: 35px;
+    padding-right: 20px; 
+}
+
+.digital_ul li {
+    padding: 11.5px 0px;
+    padding-left: 35px;
+    padding-right: 17px;
+    cursor: pointer;
+}
+
+.digital_ul li:hover{
+    background-color: rgb(236, 236, 250);
+}
+
+.seeAll {
+    display: flex;
+    align-items: center;
+}
+
+.seeAllwrapper{
+    border-top: 1px solid #ddd;
+    display: none;
+    animation: menu_All 15s;
+}
+
+@keyframes menu_All {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 100%;
+    }
+}
+
+
+.ShopingAll {
+    display: none;
+}
+
+.allicon {
+    color: grey;
+}
+
+.help_ul {
+    padding-bottom: 13vh;
+}
+
+.help_ul h4{
+    font-size: 19px;
+    padding: 13px 0px;
+    padding-left: 35px;
+    padding-right: 20px; 
+}
+
+.help_ul li {
+    padding: 11.5px 0px;
+    padding-left: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.help_ul li:hover {
+    background-color: rgb(236, 236, 250);
+}
+
+
+.uzb_flag{
+    margin-right: 9px;
+}
+
+.language{
+    margin-right: 9px;
+    color: grey;
+}
+
+
+/* amazon_music */
+
+.amazon_music {
+    width: 100%;
+    height: 100%;
+    background-color: white !important;
+    position: absolute;
+    top: 0;
+    left: 0vh;
+    display: none;
+    animation: amazonMusic ease 0.5s;
+}
+
+
+@keyframes amazonMusic {
+
+    from {left: 200px;}
+    to {right: 0px;}
+
+}
+
+.amazon_music_wrapper {
+    overflow-y: scroll;
+}
+
+.amazon_music_wrapper a {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+}
+
+.amazon_menu {
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid rgb(212, 212, 212); */
+    padding: 16px 0px;
+    padding-left: 35px;
+    font-size: 17px;
+}
+
+.amazon_menu:hover {
+    background-color: rgb(236, 236, 250);
+}
+
+.amazon_menu .left_icon {
+    margin-right: 10px;
+    color: grey;
+}
+
+.aaa{
+    color: black;
+    text-decoration: none;
+}
+
+.menu_li {
+    padding-left: 35px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.menu_li:hover {
+    background-color: rgb(236, 236, 250);
+}
+
+
+.main_h4 {
+    cursor: initial;
+    border-top: 1px solid rgb(218, 218, 218);
+    padding-top: 14px;
+}
