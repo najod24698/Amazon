@@ -5,7 +5,7 @@ import LoginEmailPassword from './components/LoginEmailPassword';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Banner from './components/Banner';
 import Content from './components/Content';
-import Nav_main from './components/Nav_main';
+import Navmain from './components/Nav_main';
 import Cart from './components/Cart';
 import Product from './components/Product';
 import AmazonBasic from './components/AmazonBasic';
@@ -154,7 +154,7 @@ function App() {
     }
   ] 
 
-  const user = true;
+  // const user = true;
 
   
   return (
@@ -174,7 +174,7 @@ function App() {
             </Route>
             <Route path="/">
               <Header />
-              <Nav_main  path={Nav_main}/>
+              <Navmain  path={Navmain}/>
               <Banner all={bannerimages} />
               <Content data={contentImage} date={contentImage2} comfy={contentImage3}/>
             </Route>            

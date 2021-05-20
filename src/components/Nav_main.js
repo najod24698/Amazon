@@ -12,7 +12,7 @@ import { useState } from 'react';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 
-const Nav_main = () => {
+const Navmain = () => {
 
     const [digital, setdigital] = useState(false);
 
@@ -285,4 +285,4 @@ const Nav_main = () => {
     )
 }
 
-export default Nav_main;
+export default Navmain;
