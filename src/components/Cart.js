@@ -9,7 +9,7 @@ import { getBasketSubtotal } from '../readucer';
 
 const Cart = ({ allBasketItems }) => {
 
-    const [basket, dispatch] = useStateValue();
+    // const [basket, dispatch] = useStateValue();
 
 
     return (
