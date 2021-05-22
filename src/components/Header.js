@@ -7,12 +7,12 @@ import lang from '../assets/us.svg';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import cart from '../assets/cart.svg';
 import { Link } from 'react-router-dom';
-import Cart from './Cart';
+// import Cart from './Cart';
 import {useStateValue} from '../StateProvider';
 
 function Header() {
 
-    const [basket, dispatch] = useStateValue();
+    const [basket] = useStateValue();
     console.log(basket);
 
     const [showup, setshowup] = useState(false);

@@ -5,7 +5,7 @@ import LoginEmailPassword from './components/LoginEmailPassword';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Banner from './components/Banner';
 import Content from './components/Content';
-import Navmain from './components/Nav_main';
+import Navmain from './components/Navmain';
 import Cart from './components/Cart';
 import Product from './components/Product';
 import AmazonBasic from './components/AmazonBasic';
