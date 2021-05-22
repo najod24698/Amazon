@@ -9,16 +9,16 @@ import { getBasketSubtotal } from '../readucer';
 
 const Cart = ({ allBasketItems }) => {
 
-    const [basket, dispatch] = useStateValue();
+    const [basket] = useStateValue();
 
     return (
         <div className="ChecCart">
             <Header />
             <Nav_main />
             <div className="ChecCart_wrapper">
-                <div className="checcart1">
+                {/* <div className="checcart1">
 
-                </div>
+                </div> */}
                 <div className="checcart2">
                     <div className="subtotal">
                         <CurrencyFormat
