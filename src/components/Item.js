@@ -16,6 +16,7 @@ function Item({id,cost, title, image}) {
             }
         })
     }
+    console.log(basket)
 
     return (
         <div>

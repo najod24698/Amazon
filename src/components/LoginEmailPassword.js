@@ -10,9 +10,10 @@ import { useStateValue } from '../StateProvider';
 
 function LoginEmail() {
 
-    const [user, dispatch] = useStateValue({})
+    const [user] = useStateValue({})
 
     const [dropped, setdropped] = useState(false);
+    console.log(user);
 
 
     const dropdown = (e) => {
