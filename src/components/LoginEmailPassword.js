@@ -30,7 +30,7 @@ function LoginEmail() {
 
     return (
         <div className="loginEmailPassword">
-            <Link to="/amazon">
+            <Link to="/">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" alt="" className="header_logo" alt="amazon" />
             </Link>
             <div className="loginContainer">
