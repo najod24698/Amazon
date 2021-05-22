@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
 import '../styles/LoginEmailPassword.css';
-import amazonqora from '../assets/amazonqora.png';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import {Link} from 'react-router-dom';
@@ -32,7 +31,7 @@ function LoginEmail() {
     return (
         <div className="loginEmailPassword">
             <Link to="/amazon">
-                <img src={amazonqora} alt="" className="header_logo" alt="amazon" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" alt="" className="header_logo" alt="amazon" />
             </Link>
             <div className="loginContainer">
                 <h1>Sign in</h1>
