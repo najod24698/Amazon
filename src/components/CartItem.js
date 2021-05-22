@@ -11,7 +11,7 @@ const CartItem = ({id, image, title, cost}) => {
         })
     }
 
-
+    console.log(basket)
     return (
         <div>
             <h1>{title}</h1>

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Cart.css';
 import Header from './Header';
-import Nav_main from './Navmain';
+import Navmain from './Navmain';
 import {useStateValue} from '../StateProvider';
 import CartItem from './CartItem';
 import CurrencyFormat from 'react-currency-format';
@@ -14,7 +14,7 @@ const Cart = ({ allBasketItems }) => {
     return (
         <div className="ChecCart">
             <Header />
-            <Nav_main />
+            <Navmain />
             <div className="ChecCart_wrapper">
                 {/* <div className="checcart1">
 
