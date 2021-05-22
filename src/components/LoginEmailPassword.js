@@ -31,7 +31,9 @@ function LoginEmail() {
 
     return (
         <div className="loginEmailPassword">
-            <Link to="/"><img src={amazonqora} alt="" className="header_logo" alt="amazon" /></Link>
+            <Link to="/amazon">
+                <img src={amazonqora} alt="" className="header_logo" alt="amazon" />
+            </Link>
             <div className="loginContainer">
                 <h1>Sign in</h1>
                 <form action="#" id="form">
