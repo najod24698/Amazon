@@ -7,7 +7,7 @@ function Item({id,cost, title, image}) {
 
     const addToCart= (e) => {
         dispatch({
-            type: "ADD_TO_CART",
+            type: "ADD_TO_CART"?
             basket: {
                 id: id,
                 title: title,
