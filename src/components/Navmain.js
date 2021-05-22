@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Nav_main.css';
+import '../styles/Navmain.css';
 import MenuIcon from '@material-ui/icons/Menu';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
