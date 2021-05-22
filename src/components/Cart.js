@@ -2,15 +2,14 @@ import React from 'react';
 import '../styles/Cart.css';
 import Header from './Header';
 import Nav_main from './Nav_main';
-import { useStateValue } from '../StateProvider';
+import {useStateValue} from '../StateProvider';
 import CartItem from './CartItem';
 import CurrencyFormat from 'react-currency-format';
 import { getBasketSubtotal } from '../readucer';
 
 const Cart = ({ allBasketItems }) => {
 
-    // const [basket, dispatch] = useStateValue();
-
+    const [basket, dispatch] = useStateValue();
 
     return (
         <div className="ChecCart">
